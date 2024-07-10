@@ -8,22 +8,6 @@ import Summary from "./components/Summary";
 import axios from "axios";
 
 function App() {
-  const [profileData, setProfileData] = useState([]);
-  useEffect(() => {
-    axios
-      .get("/data/profileData.json")
-      .then((response) => {
-        setProfileData(response.data);
-        console.log("res:", response.data);
-        console.log(response.data.aboutMe);
-      })
-      .catch((error) => {
-        console.error("Error fetching mock data:", error);
-      });
-  }, []);
-  if (!profileData) {
-    return <div>Loading...</div>;
-  }
   return (
     <>
       <Summary />

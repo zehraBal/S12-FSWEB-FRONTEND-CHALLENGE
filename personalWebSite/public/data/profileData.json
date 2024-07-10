@@ -1,56 +1,133 @@
 {
-  "name": "Zehra",
-  "sumTitle": "I am a Frontend Developer...",
-  "sumContent": "...who likes to craft solid and scalable frontend products with great user experience",
-  "skillsTitle": "Skills",
-  "profile": "Profile",
-  "basicInfoTitle": "Basic Informatiom",
-  "birthday": {
-    "title": "Doğum Tarihi",
-    "data": "11.11.1998"
-  },
-  "residence": {
-    "title": "İkamet Şehri",
-    "data": "İstanbul"
-  },
-  "education": {
-    "title": "Eğitim Durumu",
-    "data": "Sakarya Ünv. Elektrik Elektronik Müh. 2022"
-  },
-  "preference": {
-    "title": "Tercih Ettiği Rol",
-    "data": "Frontend,UI"
-  },
-  "aboutMe": {
-    "title": "About Me",
-    "data": "I graduated from Sakarya University with a degree in Electrical and Electronics Engineering and later completed a degree in Computer Programming at Anadolu University. I have one year of work experience at Polar Marine Marine Equipment Inc., where I worked on embedded software projects and created websites using CMS. Following this, I joined Workintech's full stack development training program and have completed the frontend portion while continuing with the rest of the course."
-  },
-  "Projects": {
-    "title": "Projects",
-    "project1": {
-      "title": "Pizza Challenge Project",
-      "description": "This project is a single-page application (SPA). Created using React, this application allows users to easily place food orders by clicking the order button on the homepage. When users fill out the order form, they are redirected to a confirmation page if the form validations are successful. In this project, fundamental React concepts such as routing, forms, validations, and state management are effectively utilized.",
-      "used": ["react", "vercel"],
-      "viewSite": "",
-      "git": "https://github.com/zehraBal/fsweb-s7-challenge-pizza"
+  "tr": {
+    "summary": {
+      "name": "Zehra",
+      "sumTitle": "Ben bir Frontend Geliştiricisiyim...",
+      "sumContent": "...solid ve ölçeklenebilir frontend ürünleri harika kullanıcı deneyimleriyle oluşturmaktan hoşlanan biriyim"
     },
-    "project2": {
-      "title": "X Mockup Project",
-      "description": "This project is a React application that utilizes APIs to fetch user information and tweet data. It effectively manages complex state management required for these integrations. Users can view and interact with data fetched from the API. Leveraging React's robust state management capabilities, the application ensures smooth data flow and enhances user experience.",
-      "used": ["react", "vercel"],
-      "viewSite": "",
-      "git": "https://github.com/zehraBal/X-Mockup"
+
+    "skillsTitle": "Beceriler",
+
+    "basicInfo": {
+      "profileTitle": "Profil",
+
+      "title": "Temel Bilgiler",
+      "birthday": {
+        "title": "Doğum Tarihi",
+        "data": "11.11.1998"
+      },
+      "residence": {
+        "title": "İkamet Şehri",
+        "data": "İstanbul"
+      },
+      "education": {
+        "title": "Eğitim Geçmişi",
+        "data": "Sakarya Üniv. Elektrik Elektronik Müh. 2022"
+      },
+      "preference": {
+        "title": "Tercih Edilen Rol",
+        "data": "Frontend, UI"
+      }
     },
-    "project3": {
-      "title": "To Do App",
-      "description": "This project is a React To-Do application that utilizes Redux for state management. The application allows users to add new tasks, edit existing ones, and completely delete tasks from a to-do list. Additionally, there are three tabs to view all tasks, active tasks, or completed tasks. Redux ensures efficient state management across the application, providing a smooth user experience.",
-      "used": ["react", "redux", "vercel"],
-      "viewSite": "",
-      "git": "https://github.com/zehraBal/Redux-Applications"
+    "aboutMe": {
+      "title": "Hakkımda",
+      "data": "Sakarya Üniversitesi'nden Elektrik ve Elektronik Mühendisliği bölümünden mezun oldum ve daha sonra Anadolu Üniversitesi'nde Bilgisayar Programcılığı bölümünü tamamladım. Bir yıl boyunca Polar Marine Denizcilik Ekipmanları A.Ş.'de gömülü yazılım projelerinde çalıştım ve CMS kullanarak web siteleri oluşturdum. Bu deneyimimin ardından Workintech'in full stack geliştirme eğitim programına katıldım ve frontend kısmını tamamladım, kalan eğitime devam ediyorum."
+    },
+
+    "projects": {
+      "title": "Projeler",
+      "content": [
+        {
+          "title": "Pizza Challenge Projesi",
+          "description": "Bu proje, kullanıcıların kolayca yemek siparişi verebileceği tek sayfalık bir uygulamadır (SPA). React kullanılarak oluşturulan bu uygulama, ana sayfadaki sipariş butonuna tıklayarak kullanıcıların yemek siparişi vermesini sağlar. Kullanıcılar sipariş formunu doldurduklarında, form doğrulamaları başarılı olursa onay sayfasına yönlendirilirler. Bu projede, routing, formlar, doğrulamalar ve durum yönetimi gibi temel React kavramları etkin bir şekilde kullanılmıştır.",
+          "used": ["react", "vercel"],
+          "viewSite": "",
+          "git": "https://github.com/zehraBal/fsweb-s7-challenge-pizza"
+        },
+        {
+          "title": "X Mockup Projesi",
+          "description": "Bu proje, kullanıcı bilgilerini ve tweet verilerini almak için API'ları kullanan bir React uygulamasıdır. Bu entegrasyonlar için gerekli olan karmaşık durum yönetimini etkili bir şekilde yönetir. Kullanıcılar, API'den alınan verileri görüntüleyebilir ve etkileşime girebilir. React'in güçlü durum yönetimi yeteneklerini kullanarak uygulama, sorunsuz veri akışını sağlar ve kullanıcı deneyimini artırır.",
+          "used": ["react", "vercel"],
+          "viewSite": "",
+          "git": "https://github.com/zehraBal/X-Mockup"
+        },
+        {
+          "title": "To Do Uygulaması",
+          "description": "Bu proje, Redux kullanarak durum yönetimini sağlayan bir React Yapılacaklar uygulamasıdır. Uygulama, kullanıcıların yeni görevler eklemesine, mevcut görevleri düzenlemesine ve görevleri tamamen silmesine olanak tanır. Ayrıca, tüm görevleri, aktif görevleri veya tamamlanmış görevleri görüntülemek için üç sekme bulunur. Redux, uygulama genelinde etkili durum yönetimi sağlayarak kullanıcı deneyimini sorunsuz hale getirir.",
+          "used": ["react", "redux", "vercel"],
+          "viewSite": "",
+          "git": "https://github.com/zehraBal/Redux-Applications"
+        }
+      ]
+    },
+    "footer": {
+      "title": "Bana bir mesaj gönder!",
+      "content": "Bir sorunuz veya teklifiniz mi var, ya da sadece merhaba demek mi istiyorsunuz? Hadi."
     }
   },
-  "footer": {
-    "title": "Send me a message!",
-    "content": "Got a question or proposal, or just want to say hello? Go ahead."
+  "en": {
+    "summary": {
+      "name": "Zehra",
+      "sumTitle": "I am a Frontend Developer...",
+      "sumContent": "...who likes to craft solid and scalable frontend products with great user experience"
+    },
+
+    "skillsTitle": "Skills",
+
+    "basicInfo": {
+      "profileTitle": "Profile",
+
+      "title": "Basic Information",
+      "birthday": {
+        "title": "Date of Birth",
+        "data": "11.11.1998"
+      },
+      "residence": {
+        "title": "City of Residence",
+        "data": "İstanbul"
+      },
+      "education": {
+        "title": "Educational Background",
+        "data": "Sakarya University, EEE , 2022"
+      },
+      "preference": {
+        "title": "Preferred Role",
+        "data": "Frontend,UI"
+      }
+    },
+    "aboutMe": {
+      "title": "About Me",
+      "data": "I graduated from Sakarya University with a degree in Electrical and Electronics Engineering and later completed a degree in Computer Programming at Anadolu University. I have one year of work experience at Polar Marine Marine Equipment Inc., where I worked on embedded software projects and created websites using CMS. Following this, I joined Workintech's full stack development training program and have completed the frontend portion while continuing with the rest of the course."
+    },
+    "projects": {
+      "title": "Projects",
+      "content": [
+        {
+          "title": "Pizza Challenge Project",
+          "description": "This project is a single-page application (SPA). Created using React, this application allows users to easily place food orders by clicking the order button on the homepage. When users fill out the order form, they are redirected to a confirmation page if the form validations are successful. In this project, fundamental React concepts such as routing, forms, validations, and state management are effectively utilized.",
+          "used": ["react", "vercel"],
+          "viewSite": "",
+          "git": "https://github.com/zehraBal/fsweb-s7-challenge-pizza"
+        },
+        {
+          "title": "X Mockup Project",
+          "description": "This project is a React application that utilizes APIs to fetch user information and tweet data. It effectively manages complex state management required for these integrations. Users can view and interact with data fetched from the API. Leveraging React's robust state management capabilities, the application ensures smooth data flow and enhances user experience.",
+          "used": ["react", "vercel"],
+          "viewSite": "https://x-mockup.vercel.app/",
+          "git": "https://github.com/zehraBal/X-Mockup"
+        },
+        {
+          "title": "To Do App",
+          "description": "This project is a React To-Do application that utilizes Redux for state management. The application allows users to add new tasks, edit existing ones, and completely delete tasks from a to-do list. Additionally, there are three tabs to view all tasks, active tasks, or completed tasks. Redux ensures efficient state management across the application, providing a smooth user experience.",
+          "used": ["react", "redux", "vercel"],
+          "viewSite": "",
+          "git": "https://github.com/zehraBal/Redux-Applications"
+        }
+      ]
+    },
+    "footer": {
+      "title": "Send me a message!",
+      "content": "Got a question or proposal, or just want to say hello? Go ahead."
+    }
   }
 }
