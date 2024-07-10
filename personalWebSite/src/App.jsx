@@ -15,6 +15,7 @@ function App() {
       .then((response) => {
         setProfileData(response.data);
         console.log("res:", response.data);
+        console.log(response.data.aboutMe);
       })
       .catch((error) => {
         console.error("Error fetching mock data:", error);
