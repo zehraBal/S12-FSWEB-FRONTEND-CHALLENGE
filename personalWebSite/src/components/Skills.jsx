@@ -1,9 +1,14 @@
+import { useSelector } from "react-redux";
+
 export default function Skills() {
+  const title = useSelector((store) => store.data.skillsTitle);
   return (
-    <div className="w-screen flex justify-center items-center h-[552px] dark:bg-[#252128]">
-      <div className="w-[960px] h-auto flex justify-between ">
-        <h1 className="text-[#4731D3] font-bold text-[48px]">Skills</h1>
-        <div className="w-[290px] flex flex-col gap-[35px]">
+    <div className="w-screen flex justify-center items-center min-h-[552px]  dark:bg-[#252128] max-md:h-auto max-md:mb-5">
+      <div className="w-full max-w-[960px] h-auto flex flex-col lg:flex-row justify-between items-center lg:items-start gap-8 px-4 lg:px-0">
+        <h1 className="text-[#4731D3] font-bold text-[48px] dark:text-[#CBF281] text-center lg:text-left ">
+          {title}
+        </h1>
+        <div className="w-full lg:w-[290px] flex flex-col gap-[35px]">
           <div className="flex items-center gap-6 text-2xl font-medium text-[#777777] dark:text-white">
             <img
               className="rounded-md shadow-custom1"
@@ -25,7 +30,7 @@ export default function Skills() {
             REACT
           </div>
           <div className="flex items-center gap-6 text-2xl font-medium text-[#777777] dark:text-white">
-            <div className=" rounded-md bg-violet-700 h-[120px] w-[120px] flex justify-center items-center shadow-custom1">
+            <div className="rounded-md bg-violet-700 h-[120px] w-[120px] flex justify-center items-center shadow-custom1">
               <img
                 className="object-contain"
                 width="110"
@@ -37,7 +42,7 @@ export default function Skills() {
             REDUX
           </div>
         </div>
-        <div className="w-[290px] flex flex-col gap-[35px]">
+        <div className="w-full lg:w-[290px] flex flex-col gap-[35px]">
           <div className="flex items-center gap-6 text-2xl font-medium text-[#777777] dark:text-white">
             <div className="w-[120px] h-[120px] bg-black rounded-md shadow-custom1">
               <img

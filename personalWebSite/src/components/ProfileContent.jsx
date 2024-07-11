@@ -4,7 +4,7 @@ import AboutMe from "./AboutMe";
 
 export default function ProfileContent() {
   return (
-    <div className="w-[960px] h-[290.68px] flex gap-[30px]  bg-transparent  ">
+    <div className="max-w-[960px] min-h-[290.68px] flex gap-[30px]  bg-transparent max-md:flex-col max-md:h-auto">
       <BasicInfo />
       <div className="w-[300px] h-[290.68px] flex items-stretch justify-center">
         <img

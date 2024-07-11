@@ -11,29 +11,29 @@ export default function ProjectContent() {
         return (
           <div
             key={index}
-            className="w-[960px] h-[360px] rounded-xl flex gap-4 bg-white items-center shadow-custom1 dark:bg-[#171043]"
+            className="max-w-[960px] min-h-[360px] rounded-xl flex gap-4 bg-white items-center shadow-custom1 dark:bg-[#2B2727] max-md:flex-col max-md:w-auto max-md:h-auto max-md:pb-5 max-md:justify-center max-md:gap-0"
           >
-            <div className="w-[360px] h-[360px]">
+            <div className="w-[360px] h-[360px] max-md:hidden">
               <img
                 className="w-full h-full object-cover rounded-[12px_0px_0px_12px] boreder-r border-[#D2D2D2]"
                 src="src/assets/image2.png"
                 alt="project"
               />
             </div>
-            <div className="w-[584px] h-[247px] pr-8 text-left flex flex-col justify-between items-start ">
+            <div className="max-w-[584px] min-h-[247px] pr-8 text-left flex flex-col justify-between items-start max-md:px-4">
               <div className="w-[520px]">
                 {" "}
                 <h3 className="font-bold text-[32px] leading-8 text-[#4731D3] dark:text-[#C1BAED]">
                   {project.title}
                 </h3>
               </div>
-              <div className="w-[520px] h-[100px] text-justify">
+              <div className="max-w-[520px] min-h-[100px] text-justify">
                 <p className="font-normal text-base leading-5 dark:text-white">
                   {project.description}
                 </p>
               </div>
 
-              <div className=" w-[296.14px] flex  justify-between items-center">
+              <div className=" max-w-[296.14px] flex flex-wrap  gap-4 items-center">
                 {project.used.map((item, key) => {
                   return (
                     <div

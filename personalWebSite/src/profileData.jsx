@@ -31,7 +31,7 @@ export const profileData = {
   },
   aboutMe: {
     title: "About Me",
-    data: "I graduated from Sakarya University with a degree in Electrical and Electronics Engineering and later completed a degree in Computer Programming at Anadolu University. I have one year of work experience at Polar Marine Marine Equipment Inc., where I worked on embedded software projects and created websites using CMS. Following this, I joined Workintech's full stack development training program and have completed the frontend portion while continuing with the rest of the course.",
+    data: "I graduated from Sakarya Univ. with a degree in EEE and later completed a program in Computer Programming at Anadolu Univ. I worked for a year at Polar Marine Denizcilik on embedded software projects and creating websites using CMS. Currently, I am enrolled in Workintech's full stack development program, having completed the frontend portion.",
   },
   projects: {
     title: "Projects",

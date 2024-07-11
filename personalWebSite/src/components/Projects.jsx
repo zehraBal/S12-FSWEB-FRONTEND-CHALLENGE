@@ -13,9 +13,9 @@ export default function Projects() {
   }, []);
   console.log(projectsData);
   return (
-    <div className="w-screen  bg-[#CBF281] flex flex-col items-center py-[44px] gap-4 dark:bg-[#171043]">
-      <div className="w-[960px] text-left">
-        <h1 className="text-[#4731D3] font-bold text-[48px] leadindg-[48px]">
+    <div className="w-screen  bg-[#CBF281] flex flex-col items-center py-[44px] gap-4 dark:bg-[#1A210B]">
+      <div className="w-[960px] text-left max-md:text-center">
+        <h1 className="text-[#4731D3] font-bold text-[48px] leadindg-[48px] dark:text-[#CBF281]">
           {projectsData.title}
         </h1>
       </div>

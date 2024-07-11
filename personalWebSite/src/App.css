@@ -8,7 +8,7 @@
   padding: 0;
   text-align: center;
 }
-/*container-switch {
+.container-switch {
   display: flex;
   align-items: center;
 }
@@ -57,16 +57,16 @@
 
 .slider:after {
   height: 16px;
-  width: 15px;
+  width: 16px;
   left: 5px;
   bottom: 4px;
   background-color: #8f88ff;
-  clip-path: circle(50% at 100% 50%);
-  opacity: 0;
+  clip-path: circle(55% at 100% 45%);
+  opacity: 0; /* Set opacity to 1 to make it visible */
 }
 
 input:checked + .slider {
-  background-color: #8f88ff;
+  background-color: #3a3a3a;
 }
 
 input:checked + .slider:before {
@@ -77,5 +77,8 @@ input:checked + .slider:before {
 input:checked + .slider:after {
   transform: translateX(30px);
   opacity: 1;
+  background-color: #3a3a3a;
 }
+
+/*              <span className="slider absolute cursor-pointer top-0 left-0 right-0 bottom-0 bg-[#8f88ff] rounded-[34px] transition-all duration-400 before:absolute before:content-[''] before:w-[15px] before:h-[16px] before:left-[5px] before:bottom-[4px] before:bg-[#ffe86e] before:rounded-[50%] before:transition-transform before:duration-400 dark:before:translate-x-[30px] dark:before:bg-[#ffe86e] dark:bg-[#252128]"></span>
 */
