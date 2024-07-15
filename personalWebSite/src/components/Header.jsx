@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchEnglishData, fetchTurkishData } from "../store/actions/actions";
 import { languageSelector } from "../store/selectors/selectors";

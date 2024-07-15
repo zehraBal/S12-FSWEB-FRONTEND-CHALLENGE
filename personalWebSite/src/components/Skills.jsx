@@ -3,9 +3,9 @@ import { useSelector } from "react-redux";
 export default function Skills() {
   const title = useSelector((store) => store.data.skillsTitle);
   return (
-    <div className="w-screen flex justify-center items-center min-h-[552px]  dark:bg-[#252128] max-md:h-auto max-md:mb-5">
+    <div className="w-screen flex justify-center items-center min-h-[552px]  dark:bg-[#252128] max-md:h-auto max-md:pb-5">
       <div className="w-full max-w-[960px] h-auto flex flex-col lg:flex-row justify-between items-center lg:items-start gap-8 px-4 lg:px-0">
-        <h1 className="text-[#4731D3] font-bold text-[48px] dark:text-[#CBF281] text-center lg:text-left ">
+        <h1 className="text-[#4731D3] font-bold text-[48px] dark:text-[#CBF281]   max-md:text-left ">
           {title}
         </h1>
         <div className="w-full lg:w-[290px] flex flex-col gap-[35px]">
