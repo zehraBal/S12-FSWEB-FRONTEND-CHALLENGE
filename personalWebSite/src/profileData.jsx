@@ -43,6 +43,7 @@ export const profileData = {
         used: ["react", "vercel"],
         viewSite: "https://pizza-challenge-blush.vercel.app/",
         git: "https://github.com/zehraBal/fsweb-s7-challenge-pizza",
+        image: "/images/pizza.png",
       },
       {
         title: "X Mockup Project",
@@ -51,6 +52,7 @@ export const profileData = {
         used: ["react", "vercel"],
         viewSite: "https://x-mockup.vercel.app/",
         git: "https://github.com/zehraBal/X-Mockup",
+        image: "/images/x.png",
       },
       {
         title: "To Do App",
@@ -59,6 +61,7 @@ export const profileData = {
         used: ["react", "redux", "vercel"],
         viewSite: "https://todo-app-tau-gray.vercel.app/",
         git: "https://github.com/zehraBal/Redux-Applications",
+        image: "/images/todo.png",
       },
     ],
   },
