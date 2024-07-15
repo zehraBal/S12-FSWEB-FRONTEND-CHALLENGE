@@ -44,7 +44,13 @@ export default function ContactForm({ handleClose }) {
               type="text"
               id="fullname"
               name="fullname"
-              {...register("fullname", { required: "Fullname is required" })}
+              {...register("fullname", {
+                required: "Fullname is required",
+                minLength: {
+                  value: 5,
+                  message: "Enter a valid name ",
+                },
+              })}
               className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm dark:bg-gray-300 dark:text-black"
               placeholder="Enter your fullname"
             />
@@ -94,10 +100,21 @@ export default function ContactForm({ handleClose }) {
               type="text"
               id="phone"
               name="phone"
-              {...register("phone", { required: "Phone number is required" })}
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm  dark:bg-gray-300 dark:text-black"
+              {...register("phone", {
+                required: "Phone number is required",
+                minLength: {
+                  value: 10,
+                  message: "Phone number must be at least 10 digits",
+                },
+                pattern: {
+                  value: /^\d+$/,
+                  message: "Phone number must contain only digits",
+                },
+              })}
+              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm dark:bg-gray-300 dark:text-black"
               placeholder="Enter your phone number"
             />
+
             {errors.phone && (
               <p className="text-red-500 text-sm mt-1">
                 {errors.phone.message}
