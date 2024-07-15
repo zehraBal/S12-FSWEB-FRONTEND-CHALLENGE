@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ProjectContent from "./ProjectContent";
 import { useSelector } from "react-redux";
 import { projectsSelector } from "../store/selectors/selectors";
