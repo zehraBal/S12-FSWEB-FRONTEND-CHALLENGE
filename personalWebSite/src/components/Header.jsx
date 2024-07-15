@@ -3,11 +3,12 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchEnglishData, fetchTurkishData } from "../store/actions/actions";
 import { languageSelector } from "../store/selectors/selectors";
 import { useDarkMode } from "../hooks/useDarkMode";
+import { useLanguage } from "../hooks/useLanguage";
 
 export default function Header() {
   const dispatch = useDispatch();
-  const language = useSelector(languageSelector);
-  const [isTr, setIsTr] = useState(language === "tr");
+  const reduxLanguage = useSelector(languageSelector);
+  const [language, setLanguage] = useLanguage(reduxLanguage);
   const [isDarkMode, setIsDarkMode] = useDarkMode(false);
 
   useEffect(() => {
@@ -19,21 +20,14 @@ export default function Header() {
   }, [language, dispatch]);
 
   const handleLanguage = () => {
-    if (!isTr) {
-      dispatch(fetchTurkishData());
-    } else {
-      dispatch(fetchEnglishData());
-    }
+    const newLanguage = language === "tr" ? "en" : "tr";
+    setLanguage(newLanguage);
   };
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
-    if (isDarkMode) {
-      document.documentElement.classList.remove("dark");
-    } else {
-      document.documentElement.classList.add("dark");
-    }
   };
+
   useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
@@ -50,9 +44,9 @@ export default function Header() {
           className="text-[15px] font-bold text-[#CBF281] cursor-pointer max-sm:mr-0 max-sm:mb-3 max-sm:m-0"
           onClick={handleLanguage}
         >
-          {isTr ? "SWITCH TO ENGLISH" : "TÜRKÇE'YE GEÇ"}
+          {language === "tr" ? "SWITCH TO ENGLISH" : "TÜRKÇE'YE GEÇ"}
         </div>
-        <div className=" text-[#4731D3] font-bold flex justify-center items-center gap-3 max-sm:m-0">
+        <div className="text-[#4731D3] font-bold flex justify-center items-center gap-3 max-sm:m-0">
           <div className="container-switch">
             <label className="switch">
               <input

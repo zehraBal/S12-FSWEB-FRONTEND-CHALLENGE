@@ -1,7 +1,7 @@
 import { CHANGE_LANGUAGE_EN, CHANGE_LANGUAGE_TR } from "../actions/actions";
 import { profileData } from "../../profileData";
 const initialState = {
-  language: localStorage.getItem("language") || "en",
+  language: "en",
   data: profileData,
 };
 console.log("initialState=", initialState);
@@ -14,11 +14,9 @@ function initialMode(key) {
 export const globalReducer = (state = initialState, action) => {
   switch (action.type) {
     case CHANGE_LANGUAGE_TR:
-      localStorage.setItem("language", "tr");
-      return { ...state, data: action.payload, language: "tr" };
+      return { ...state, data: action.payload };
     case CHANGE_LANGUAGE_EN:
-      localStorage.setItem("language", "en");
-      return { ...state, data: action.payload, language: "en" };
+      return { ...state, data: action.payload };
     default:
       return state;
   }
