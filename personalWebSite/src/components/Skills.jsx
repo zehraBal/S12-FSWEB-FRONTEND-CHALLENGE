@@ -14,7 +14,7 @@ export default function Skills() {
               className="rounded-md shadow-custom1"
               width="120"
               height="120"
-              src="src/assets/jS.png"
+              src="/images/jS.png"
               alt="JS"
             />
             JAVASCRIPT
@@ -24,7 +24,7 @@ export default function Skills() {
               className="rounded-md shadow-custom1"
               width="120"
               height="120"
-              src="src/assets/react.png"
+              src="/images/react.png"
               alt="react"
             />
             REACT
@@ -35,7 +35,7 @@ export default function Skills() {
                 className="object-contain"
                 width="110"
                 height="110"
-                src="src/assets/redux.png"
+                src="/images/redux.png"
                 alt="redux"
               />
             </div>{" "}
@@ -45,12 +45,7 @@ export default function Skills() {
         <div className="w-full lg:w-[290px] flex flex-col gap-[35px]">
           <div className="flex items-center gap-6 text-2xl font-medium text-[#777777] dark:text-white">
             <div className="w-[120px] h-[120px] bg-black rounded-md shadow-custom1">
-              <img
-                width="120"
-                height="120"
-                src="src/assets/node.png"
-                alt="node"
-              />
+              <img width="120" height="120" src="/images/node.png" alt="node" />
             </div>{" "}
             NODE{" "}
           </div>
@@ -59,7 +54,7 @@ export default function Skills() {
               {" "}
               <img
                 className="w-[100px] h-[100px]"
-                src="src/assets/vscode.png"
+                src="/images/vscode.png"
                 alt="vsCode"
               />
             </div>
@@ -68,7 +63,7 @@ export default function Skills() {
           <div className="flex items-center gap-6 text-2xl font-medium text-[#777777] dark:text-white">
             <img
               className="w-[120px] h-[120px] rounded-md shadow-custom1"
-              src="src/assets/figma.png"
+              src="/images/figma.png"
               alt="figma"
             />
             FIGMA

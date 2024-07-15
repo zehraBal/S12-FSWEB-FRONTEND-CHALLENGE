@@ -48,7 +48,7 @@ export default function SummaryContent() {
       <div className="w-[350px] h-[375.89px] max-md:hidden ">
         <img
           className="w-full h-full object-cover border-0 rounded-[18px] "
-          src="src/assets/pp.jpeg"
+          src="images/pp.jpeg"
           alt="profilePic"
         />
       </div>

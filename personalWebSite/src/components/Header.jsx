@@ -9,6 +9,7 @@ export default function Header() {
   const dispatch = useDispatch();
   const reduxLanguage = useSelector(languageSelector);
   const [language, setLanguage] = useLanguage(reduxLanguage);
+  console.log("lang:", language);
   const [isDarkMode, setIsDarkMode] = useDarkMode(false);
 
   useEffect(() => {

@@ -9,7 +9,7 @@ export default function ProfileContent() {
       <div className="w-[300px] h-[290.68px] flex items-stretch justify-center">
         <img
           className="object-cover rounded-[10px] shadow-custom1"
-          src="/src/assets/image2.png"
+          src="images/image2.png"
           alt="image2"
         />
       </div>

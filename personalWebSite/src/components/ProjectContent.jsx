@@ -16,7 +16,7 @@ export default function ProjectContent() {
             <div className="w-[360px] h-[360px] max-md:hidden">
               <img
                 className="w-full h-full object-cover rounded-[12px_0px_0px_12px] boreder-r border-[#D2D2D2]"
-                src="src/assets/image2.png"
+                src={project.image}
                 alt="project"
               />
             </div>
