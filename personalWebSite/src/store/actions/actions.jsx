@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const CHANGE_LANGUAGE_TR = "CHANGE_LANGUAGE_TR";
 export const CHANGE_LANGUAGE_EN = "CHANGE_LANGUAGE_EN";
-export const FETCH_INITIAL_DATA = "FETCH_INITIAL_DATA";
+//export const FETCH_INITIAL_DATA = "FETCH_INITIAL_DATA";
 
 export const changeLanguageTr = (dataTr) => {
   return { type: CHANGE_LANGUAGE_TR, payload: dataTr };

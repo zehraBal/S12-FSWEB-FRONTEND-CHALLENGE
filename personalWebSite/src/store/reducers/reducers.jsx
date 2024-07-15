@@ -5,12 +5,7 @@ const initialState = {
   data: profileData,
 };
 console.log("initialState=", initialState);
-function initialLanguage(key) {
-  return JSON.parse(localStorage, key);
-}
-function initialMode(key) {
-  return JSON.parse(localStorage, key);
-}
+
 export const globalReducer = (state = initialState, action) => {
   switch (action.type) {
     case CHANGE_LANGUAGE_TR:
