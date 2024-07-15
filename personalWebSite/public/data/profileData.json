@@ -41,21 +41,21 @@
           "title": "Pizza Challenge Projesi",
           "description": "Bu proje, kullanıcıların kolayca yemek siparişi verebileceği tek sayfalık bir uygulamadır (SPA). React kullanılarak oluşturulan bu uygulama, ana sayfadaki sipariş butonuna tıklayarak kullanıcıların yemek siparişi vermesini sağlar. Kullanıcılar sipariş formunu doldurduklarında, form doğrulamaları başarılı olursa onay sayfasına yönlendirilirler. Bu projede, routing, formlar, doğrulamalar ve durum yönetimi gibi temel React kavramları etkin bir şekilde kullanılmıştır.",
           "used": ["react", "vercel"],
-          "viewSite": "",
+          "viewSite": "https://pizza-challenge-blush.vercel.app/",
           "git": "https://github.com/zehraBal/fsweb-s7-challenge-pizza"
         },
         {
           "title": "X Mockup Projesi",
           "description": "Bu proje, kullanıcı bilgilerini ve tweet verilerini almak için API'ları kullanan bir React uygulamasıdır. Bu entegrasyonlar için gerekli olan karmaşık durum yönetimini etkili bir şekilde yönetir. Kullanıcılar, API'den alınan verileri görüntüleyebilir ve etkileşime girebilir. React'in güçlü durum yönetimi yeteneklerini kullanarak uygulama, sorunsuz veri akışını sağlar ve kullanıcı deneyimini artırır.",
           "used": ["react", "vercel"],
-          "viewSite": "",
+          "viewSite": "https://x-mockup.vercel.app/",
           "git": "https://github.com/zehraBal/X-Mockup"
         },
         {
           "title": "To Do Uygulaması",
           "description": "Bu proje, Redux kullanarak durum yönetimini sağlayan bir React Yapılacaklar uygulamasıdır. Uygulama, kullanıcıların yeni görevler eklemesine, mevcut görevleri düzenlemesine ve görevleri tamamen silmesine olanak tanır. Ayrıca, tüm görevleri, aktif görevleri veya tamamlanmış görevleri görüntülemek için üç sekme bulunur. Redux, uygulama genelinde etkili durum yönetimi sağlayarak kullanıcı deneyimini sorunsuz hale getirir.",
           "used": ["react", "redux", "vercel"],
-          "viewSite": "",
+          "viewSite": "https://todo-app-tau-gray.vercel.app/",
           "git": "https://github.com/zehraBal/Redux-Applications"
         }
       ]
@@ -106,7 +106,7 @@
           "title": "Pizza Challenge Project",
           "description": "This project is a single-page application (SPA). Created using React, this application allows users to easily place food orders by clicking the order button on the homepage. When users fill out the order form, they are redirected to a confirmation page if the form validations are successful. In this project, fundamental React concepts such as routing, forms, validations, and state management are effectively utilized.",
           "used": ["react", "vercel"],
-          "viewSite": "",
+          "viewSite": "https://pizza-challenge-blush.vercel.app/",
           "git": "https://github.com/zehraBal/fsweb-s7-challenge-pizza"
         },
         {
@@ -120,7 +120,7 @@
           "title": "To Do App",
           "description": "This project is a React To-Do application that utilizes Redux for state management. The application allows users to add new tasks, edit existing ones, and completely delete tasks from a to-do list. Additionally, there are three tabs to view all tasks, active tasks, or completed tasks. Redux ensures efficient state management across the application, providing a smooth user experience.",
           "used": ["react", "redux", "vercel"],
-          "viewSite": "",
+          "viewSite": "https://todo-app-tau-gray.vercel.app/",
           "git": "https://github.com/zehraBal/Redux-Applications"
         }
       ]

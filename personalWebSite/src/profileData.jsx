@@ -41,7 +41,7 @@ export const profileData = {
         description:
           "This project is a single-page application (SPA). Created using React, this application allows users to easily place food orders by clicking the order button on the homepage. When users fill out the order form, they are redirected to a confirmation page if the form validations are successful. In this project, fundamental React concepts such as routing, forms, validations, and state management are effectively utilized.",
         used: ["react", "vercel"],
-        viewSite: "",
+        viewSite: "https://pizza-challenge-blush.vercel.app/",
         git: "https://github.com/zehraBal/fsweb-s7-challenge-pizza",
       },
       {
@@ -57,7 +57,7 @@ export const profileData = {
         description:
           "This project is a React To-Do application that utilizes Redux for state management. The application allows users to add new tasks, edit existing ones, and completely delete tasks from a to-do list. Additionally, there are three tabs to view all tasks, active tasks, or completed tasks. Redux ensures efficient state management across the application, providing a smooth user experience.",
         used: ["react", "redux", "vercel"],
-        viewSite: "",
+        viewSite: "https://todo-app-tau-gray.vercel.app/",
         git: "https://github.com/zehraBal/Redux-Applications",
       },
     ],
