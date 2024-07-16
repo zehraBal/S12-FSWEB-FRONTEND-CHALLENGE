@@ -24,7 +24,7 @@ export default function SummaryContent() {
 
   return (
     <div className=" max-w-[955px] h-[375.89px] flex  gap-[83px] mb-[150px] max-md:flex-col">
-      <div className="w-[530px] h-[375px] text-left flex flex-col justify-between flex-wrap gap-[83px ]  ">
+      <div className="max-w-[530px] h-[375px] text-left flex flex-col justify-between flex-wrap gap-[83px ]  ">
         <h1 className="text-[#CBF281] font-bold mt-7">{sum.sumTitle}</h1>
         <p className="text-white text-2xl font-normal ">{sum.sumContent}</p>
         <div className="w-[278px] h-14 flex gap-3 items-center">
@@ -45,7 +45,7 @@ export default function SummaryContent() {
         </div>
       </div>
 
-      <div className="w-[350px] h-[375.89px] max-md:hidden ">
+      <div className="w-[350px] h-[375px] max-lg:hidden ">
         <img
           className="w-full h-full object-cover border-0 rounded-[18px] "
           src="images/pp.jpeg"

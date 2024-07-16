@@ -6,9 +6,9 @@ export default function AboutMe() {
   console.log(abaoutMeData);
 
   return (
-    <div className="w-[300px]  h-[290.68px] text-left flex flex-col gap-3 max-md:h-auto max-md:mb-5">
+    <div className="max-w-[300px]  min-h-[290.68px] text-left flex flex-col gap-3 max-md:h-auto max-md:mb-5">
       <div>
-        <h3 className="w-[300px] h-[28px] text-white font-inter font-medium text-[30px] leading-[28px]">
+        <h3 className="max-w-[300px] h-[28px] text-white font-inter font-medium text-[30px] leading-[28px]">
           {abaoutMeData.title}
         </h3>
       </div>

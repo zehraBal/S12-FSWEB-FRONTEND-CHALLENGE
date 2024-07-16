@@ -20,8 +20,8 @@ export default function ProjectContent() {
                 alt="project"
               />
             </div>
-            <div className="max-w-[584px] min-h-[247px] pr-8 text-left flex flex-col justify-between items-start max-md:px-4">
-              <div className="w-[520px]">
+            <div className="max-w-[584px] min-h-[247px] pr-8 text-left flex flex-col justify-between items-start max-md:px-4 max-md:max-w-[430px]">
+              <div className="max-w-[520px]">
                 {" "}
                 <h3 className="font-bold text-[32px] leading-8 text-[#4731D3] dark:text-[#C1BAED]">
                   {project.title}

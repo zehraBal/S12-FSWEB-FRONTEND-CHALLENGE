@@ -8,7 +8,7 @@ export default function Projects() {
 
   return (
     <div className="w-screen  bg-[#CBF281] flex flex-col items-center py-[44px] gap-4 dark:bg-[#1A210B]">
-      <div className="w-[960px] text-left max-md:text-center">
+      <div className="w-[960px] text-left max-lg:text-center">
         <h1 className="text-[#4731D3] font-bold text-[48px] leadindg-[48px] dark:text-[#CBF281]">
           {projectsData.title}
         </h1>
