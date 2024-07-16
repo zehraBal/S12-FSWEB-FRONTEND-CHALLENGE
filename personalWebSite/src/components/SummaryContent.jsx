@@ -23,7 +23,7 @@ export default function SummaryContent() {
   };
 
   return (
-    <div className=" max-w-[955px] h-[375.89px] flex  gap-[83px] mb-[150px] max-md:flex-col">
+    <div className=" max-w-[955px] h-[375.89px] flex  gap-[83px] mb-[150px] max-md:flex-col max-sm:my-10">
       <div className="max-w-[530px] h-[375px] text-left flex flex-col justify-between flex-wrap gap-[83px ]  ">
         <h1 className="text-[#CBF281] font-bold mt-7">{sum.sumTitle}</h1>
         <p className="text-white text-2xl font-normal ">{sum.sumContent}</p>

@@ -28,8 +28,8 @@ export default function Footer() {
   };
 
   return (
-    <footer className="w-screen max-h-[454px] bg-[#F9F9F9] flex justify-center items-center dark:bg-[#252128] ">
-      <div className="max-w-[483px] h-[290px] flex flex-col justify-between items-center">
+    <footer className="w-screen max-h-[454px] bg-[#F9F9F9] flex justify-center items-center dark:bg-[#252128]  ">
+      <div className="max-w-[483px] max-h-[290px] flex flex-col justify-between items-center">
         <div className="w-full cursor-pointer" onClick={handleShowForm}>
           <h1 className="font-bold text-[47px] leading-[72px] text-[#4731D3] dark:text-[#8F88FF]">
             {info.title}{" "}
@@ -63,6 +63,7 @@ export default function Footer() {
             icon={faInstagram}
           />
         </div>
+        <span></span>
       </div>
       {showForm && <ContactForm handleClose={handleCloseForm} />}
     </footer>

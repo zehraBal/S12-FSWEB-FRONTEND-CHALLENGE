@@ -47,7 +47,7 @@ export default function Header() {
         >
           {language === "tr" ? "SWITCH TO ENGLISH" : "TÜRKÇE'YE GEÇ"}
         </div>
-        <div className="text-[#4731D3] font-bold flex justify-center items-center gap-3 max-sm:m-0">
+        <div className="text-[#4731D3] font-bold flex justify-center items-center gap-3 max-sm:m-0 max-sm:text-[#CBF281] ">
           <div className="container-switch">
             <label className="switch">
               <input
