@@ -29,8 +29,8 @@ export default function ContactForm({ handleClose }) {
   };
 
   return (
-    <div className="min-w-[430px] fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50 flex justify-center items-center">
-      <div className="bg-white p-6 rounded-lg shadow-md max-w-lg w-full text-left dark:bg-zinc-700 dark:text-white">
+    <div className=" fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50 flex justify-center items-center max-sm:top-[20%] msx-sm:justify-start max-sm:justify-start">
+      <div className="bg-white p-6 rounded-lg shadow-md max-w-lg w-full text-left dark:bg-zinc-700 dark:text-white max-sm:w-[300px] max-sm:ml-[50px]">
         <h2 className="text-2xl font-bold mb-4">Contact Me </h2>
         <form onSubmit={handleSubmit(formSubmit)}>
           <div className="mb-4">
