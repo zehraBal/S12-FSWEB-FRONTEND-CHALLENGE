@@ -63,6 +63,15 @@ export const profileData = {
         git: "https://github.com/zehraBal/Redux-Applications",
         image: "/images/todo.png",
       },
+      {
+        title: "R&M Wiki App",
+        description:
+          "This project is a Rick and Morty Wiki application built with React and utilizing Redux for state management. The application provides detailed information about the show's characters, episodes, and locations. Users can explore character details, view episode lists, and learn about various locations in the series. With the implementation of pagination, users can easily navigate through extensive datasets. The application is styled using Tailwind CSS, offering a clean, responsive, and modern user interface, ensuring a seamless and engaging user experience.",
+        used: ["react", "redux", "vercel"],
+        viewSite: "https://rmwiki.vercel.app/",
+        git: "https://github.com/zehraBal/Redux-Applications/",
+        image: "/images/rmwiki.png",
+      },
     ],
   },
   footer: {
