@@ -1,23 +1,27 @@
 import { useState } from "react";
-import axios from "axios";
-import {
-  faCodepen,
-  faInstagram,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { useSelector } from "react-redux";
-import { faAt } from "@fortawesome/free-solid-svg-icons";
-import { footerSelector } from "../store/selectors/selectors";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import { motion, AnimatePresence } from "framer-motion";
+
 import ContactForm from "./ContactForm";
 
-library.add(faAt);
-
 export default function Footer() {
-  const info = useSelector(footerSelector);
-
   const [showForm, setShowForm] = useState(false);
+
+  // Social media links
+  const socialLinks = [
+    {
+      icon: faLinkedin,
+      link: "https://www.linkedin.com/in/fatma-zehra-bal/",
+      color: "#0A66C2",
+    },
+    {
+      icon: faGithub,
+      link: "https://github.com/zehraBal",
+      color: "#333",
+    },
+  ];
 
   const handleShowForm = () => {
     setShowForm(true);
@@ -28,44 +32,71 @@ export default function Footer() {
   };
 
   return (
-    <footer className="w-screen max-h-[454px] bg-[#F9F9F9] flex justify-center items-center dark:bg-[#252128]  ">
-      <div className="max-w-[483px] max-h-[290px] flex flex-col justify-between items-center">
-        <div className="w-full cursor-pointer" onClick={handleShowForm}>
-          <h1 className="font-bold text-[47px] leading-[72px] text-[#4731D3] dark:text-[#8F88FF]">
-            {info.title}{" "}
+    <footer className="w-full bg-[#F9F9F9] dark:bg-[#252128] py-12">
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="container mx-auto px-4 max-w-3xl flex flex-col items-center text-center"
+      >
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="cursor-pointer mb-6"
+          onClick={handleShowForm}
+        >
+          <h1
+            className="text-5xl font-bold text-[#4731D3] dark:text-[#8F88FF] 
+            transition-colors duration-300 hover:text-opacity-80"
+          >
+            Get in Touch
           </h1>
+        </motion.div>
+
+        <p className="text-xl mb-6 text-gray-700 dark:text-gray-300">
+          I'm always open to discussing new projects, creative ideas, or
+          opportunities to be part of your vision.
+        </p>
+
+        <motion.a
+          whileHover={{ scale: 1.1 }}
+          href="mailto:fz.bal00@gmail.com"
+          className="text-2xl font-medium text-[#4731D3] dark:text-[#8F88FF] 
+            underline mb-6 flex items-center gap-2"
+        >
+          <FontAwesomeIcon icon={faPaperPlane} />
+          fz.bal00@gmail.com
+        </motion.a>
+
+        {/* Social Media Icons */}
+        <div className="flex justify-center space-x-6 mb-8">
+          {socialLinks.map((social, index) => (
+            <motion.a
+              key={index}
+              href={social.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.2, rotate: 360 }}
+              transition={{ type: "spring", stiffness: 300 }}
+              className="text-3xl"
+              style={{ color: social.color }}
+            >
+              <FontAwesomeIcon icon={social.icon} />
+            </motion.a>
+          ))}
         </div>
 
-        <p className="font-normal text-2xl leading-9 dark:text-white">
-          {info.content}
+        {/* Copyright */}
+        <p className="text-sm text-gray-500 dark:text-gray-400">
+          © {new Date().getFullYear()} Zehra Bal. All Rights Reserved.
         </p>
-        <a
-          className="font-medium text-[20px] leading-6 text-[#4731D3] underline under dark:text-[#8F88FF]"
-          href="mailto:fz.bal00@gmail.com"
-        >
-          fz.bal00@gmail.com
-        </a>
-        <div className="w-[212px] flex  gap-6 mt-2">
-          <FontAwesomeIcon
-            className="w-8 h-[26.07px] text-[#4731D3] dark:text-[#8F88FF] cursor-pointer"
-            icon={faTwitter}
-          />
-          <FontAwesomeIcon
-            className="w-8 h-[26.07px] text-[#4731D3] dark:text-[#8F88FF] cursor-pointer"
-            icon={faCodepen}
-          />
-          <FontAwesomeIcon
-            className="w-8 h-[26.07px] text-[#4731D3] dark:text-[#8F88FF] cursor-pointer"
-            icon={faAt}
-          />
-          <FontAwesomeIcon
-            className="w-8 h-[26.07px] text-[#4731D3] dark:text-[#8F88FF] cursor-pointer"
-            icon={faInstagram}
-          />
-        </div>
-        <span></span>
-      </div>
-      {showForm && <ContactForm handleClose={handleCloseForm} />}
+      </motion.div>
+
+      {/* Contact Form Modal */}
+      <AnimatePresence>
+        {showForm && (
+          <ContactForm handleClose={handleCloseForm} key="contact-form" />
+        )}
+      </AnimatePresence>
     </footer>
   );
 }

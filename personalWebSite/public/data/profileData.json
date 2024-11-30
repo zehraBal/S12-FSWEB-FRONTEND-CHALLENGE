@@ -2,11 +2,86 @@
   "tr": {
     "summary": {
       "name": "Zehra",
-      "sumTitle": "Ben bir Frontend Geliştiricisiyim...",
-      "sumContent": "...solid ve ölçeklenebilir frontend ürünleri harika kullanıcı deneyimleriyle oluşturmaktan hoşlanan biriyim"
+      "sumTitle": "Merhaba, Ben Zehra!",
+      "sumContent": "Bir Junior Full Stack Developer olarak, React, Node.js ve Spring Boot kullanarak sağlam ve ölçeklendirilebilir uygulamalar geliştirmeye odaklanıyorum. Sürekli öğrenmeye, projelere katkı sağlamaya ve temiz, verimli kodlar yazmaya kararlıyım.Hedefim, yazılım geliştirme konusunda derinlemesine bilgi edinmek ve zamanla senior developer seviyesine ulaşarak büyük ölçekli projelerde liderlik yapmaktır."
     },
-
-    "skillsTitle": "Beceriler",
+    "skills": {
+      "categories": [
+        {
+          "title": "Ön Uç Geliştirme Teknolojileri",
+          "skills": [
+            { "name": "JavaScript", "icon": "faJsSquare", "color": "#F0DB4F" },
+            { "name": "React", "icon": "faReact", "color": "#61DBFB" },
+            { "name": "React Hooks", "icon": "faHammer", "color": "#61DBFB" },
+            { "name": "Redux", "icon": "faCube", "color": "#764ABC" },
+            { "name": "HTML5", "icon": "faHtml5", "color": "#E34F26" },
+            { "name": "CSS3", "icon": "faCss3", "color": "#264DE4" },
+            { "name": "Bootstrap", "icon": "faBootstrap", "color": "#7952B3" },
+            {
+              "name": "Tailwind CSS",
+              "icon": "faTerminal",
+              "color": "#38B2AC"
+            },
+            { "name": "Figma", "icon": "faFigma", "color": "#F24E1E" }
+          ]
+        },
+        {
+          "title": "Arka Uç Geliştirme Teknolojileri",
+          "skills": [
+            { "name": "Node.js", "icon": "faNodeJs", "color": "#68A063" },
+            { "name": "Java", "icon": "faJava", "color": "#F89820" },
+            { "name": "Spring Boot", "icon": "faServer", "color": "#6DB33F" },
+            { "name": "PostgreSQL", "icon": "faDatabase", "color": "#336791" },
+            { "name": "SQL", "icon": "faDatabase", "color": "#4479A1" },
+            { "name": "MongoDB", "icon": "faDatabase", "color": "#4DB33D" }
+          ]
+        },
+        {
+          "title": "DevOps ve Yazılım Araçları",
+          "skills": [
+            { "name": "Git", "icon": "faGitAlt", "color": "#F1502F" },
+            { "name": "GitHub", "icon": "faGithub", "color": "#333" },
+            { "name": "CI/CD", "icon": "faCodeBranch", "color": "#007ACC" },
+            { "name": "Dağıtım", "icon": "faServer", "color": "#5C2D91" }
+          ]
+        },
+        {
+          "title": "Teknik ve Kişisel Yetkinlikler",
+          "skills": [
+            {
+              "name": "Problem Çözme",
+              "icon": "faPuzzlePiece",
+              "color": "#FF6B6B"
+            },
+            {
+              "name": "Algoritma Tasarımı",
+              "icon": "faChartLine",
+              "color": "#4ECDC4"
+            },
+            {
+              "name": "Sistem Tasarımı",
+              "icon": "faLightbulb",
+              "color": "#45B7D1"
+            },
+            {
+              "name": "Takım Çalışması",
+              "icon": "faCodeBranch",
+              "color": "#FF8C42"
+            },
+            {
+              "name": "Çevik Yöntemler",
+              "icon": "faTerminal",
+              "color": "#2A9D8F"
+            },
+            {
+              "name": "Teknik Dokümantasyon",
+              "icon": "faTerminal",
+              "color": "#6A4C93"
+            }
+          ]
+        }
+      ]
+    },
 
     "basicInfo": {
       "profileTitle": "Profil",
@@ -29,14 +104,98 @@
         "data": "Frontend, UI"
       }
     },
-    "aboutMe": {
-      "title": "Hakkımda",
-      "data": "Sakarya Üni. EEM mezunuyum, ayrıca Anadolu Üni. Bilgisayar Programcılığı okudum. Bir yıl boyunca gömülü yazılım ve CMS tabanlı web projelerinde çalıştım. Şu anda Workintech'in full stack geliştirme programında eğitim alıyorum ve frontend kısmını tamamladım."
-    },
+
+    "about": "Yazılım geliştirmeye olan ilgim, mühendislik eğitimimle başladı ve beni Full Stack Developer olarak kariyerime yönlendirdi. Sakarya Üniversitesi Elektrik-Elektronik Mühendisliği bölümünden mezun olduktan sonra, yazılım dünyasında derinleşmeye karar verdim. Workintech'in Full Stack Geliştirme Programı'nı başarıyla tamamladım ve React, Node.js, Spring Boot gibi teknolojilerde yetkinlik kazandım. Gömülü yazılım ve CMS tabanlı web projeleri üzerine çalışarak, gerçek dünya problemleri için pratik çözümler üretme deneyimi kazandım. Bu süreç, sadece teknik becerilerimi değil, aynı zamanda takım çalışması ve proje yönetimi gibi önemli yetkinliklerimi de geliştirmemi sağladı. Şu anda amacım yalnızca yazılım geliştirmek değil, aynı zamanda yenilikçi, ölçeklenebilir ve kullanıcı odaklı çözümler üretmektir. Kısa vadeli hedefim, yazılım geliştirme süreçlerinde sağlam bir temel oluşturmak ve bu alandaki pratik deneyimimi artırmaktır. Senior Developer olma yolunda ilerleyerek, büyük projelerde liderlik yapmayı hedefliyorum. Gelecekteki hedefim, yazılım geliştirmeye olan tutkumun yanı sıra, yazılım mimarisi ve takım liderliği konularında uzmanlaşarak, kaliteli ve sürdürülebilir yazılım çözümleri üretmektir.",
+
+    "education": [
+      {
+        "title": "Full Stack Geliştirme Programı",
+        "institution": "Workintech",
+        "startDate": "03-2024",
+        "endDate": "10-2024",
+        "description": "React, Node.js ve Spring Boot kullanarak full-stack uygulamalar geliştirmeye odaklanan kapsamlı bir bootcamp."
+      },
+      {
+        "title": "Elektrik ve Elektronik Mühendisliği Lisans Programı",
+        "institution": "Sakarya Üniversitesi",
+        "startDate": "09-2017",
+        "endDate": "03-2022",
+        "description": "Elektrik ve elektronik sistem mühendisliği alanında sağlam bir temel sağlayan 4 yıllık bir üniversite programı."
+      },
+      {
+        "title": "Bilgisayar Programcılığı",
+        "institution": "Anadolu Üniversitesi",
+        "startDate": "09-2021",
+        "endDate": "06-2023",
+        "description": "Bilgisayar programcılığı, yazılım geliştirme ve temel kodlama kavramları üzerine yoğunlaşan 2 yıllık bir program."
+      }
+    ],
+    "languages": [
+      { "language": "İngilizce", "level": "İleri Seviye" },
+      { "language": "Almanca", "level": "Başlangıç Seviyesi" },
+      { "language": "Japonca", "level": "Başlangıç Seviyesi" }
+    ],
+    "certificates": [
+      {
+        "title": "Front End Development",
+        "institution": "Workintech",
+        "certificateCode": "N/A",
+        "description": "Full Stack Geliştirme programı kapsamında front-end teknolojilerinde kapsamlı bir eğitim alındı."
+      },
+      {
+        "title": "C# ve ASP .NET Core MVC Eğitimi",
+        "institution": "C & Sistem Programcıları Derneği",
+        "certificateCode": "-",
+        "description": "260 saatlik c# ve ASP .NET Core MVC eğitimini tamamladım."
+      },
+
+      {
+        "title": "JavaScript (Basic)",
+        "institution": "Hackerrank",
+        "certificateCode": "ID: 2E1E6F84C9FF",
+        "description": "Hackerrank üzerinden alınan temel JavaScript becerileri sertifikası."
+      },
+      {
+        "title": "CS50’s Introduction to Computer Science",
+        "institution": "Harvard University",
+        "certificateCode": "-",
+        "description": "Harvard Üniversitesi tarafından sunulan bilgisayar bilimine giriş kursunu tamamladım."
+      },
+      {
+        "title": "Microsoft Office Programları",
+        "institution": "İstanbul İşletme Enstitüsü",
+        "certificateCode": "122331374022",
+        "description": "Microsoft Office programlarını ileri düzeyde kullanmayı sağlayan bir sertifika programı."
+      }
+    ],
 
     "projects": {
       "title": "Projeler",
-      "content": [
+      "frontendContent": [
+        {
+          "title": "Bal E-Ticaret Projesi",
+          "description": "Bu proje, kullanıcıların çevrimiçi alışveriş yapabileceği modern, performans odaklı ve kullanıcı dostu bir e-ticaret platformudur. React ve Vite kullanılarak oluşturulan bu proje, state yönetimi için Redux, form işlemlerini kolaylaştırmak için React Hook Form ve Tailwind CSS ile şık bir responsive tasarım sunar. Alışveriş sayfasında kullanıcı deneyimini geliştirmek amacıyla sayfalama (pagination) uygulanmıştır. Kullanıcılar sepete ürün ekleyip çıkarabilir, geçmiş siparişlerini görüntüleyebilir, kart ve adres bilgileri ekleyebilir ve üye girişi/üye olma işlemlerini gerçekleştirebilirler. Proje, gerçek kullanıcı deneyimini desteklemek için, **customer@commerce.com** e-posta adresi ve **123456** şifresi ile test edilebilir. Modern web geliştirme araçlarının güçlü bir kombinasyonu ile tasarlanan bu proje, kullanıcı deneyimini ve geliştirici ergonomisini ön planda tutar.",
+          "used": [
+            "react",
+            "vite",
+            "redux",
+            "react-hook-form",
+            "tailwind-css",
+            "vercel",
+            "pagination"
+          ],
+          "viewSite": "https://bal-ecommerce.vercel.app/",
+          "git": "https://github.com/zehraBal/Workintech-Ecommerce-Challenge",
+          "image": "/images/ecommerce.png"
+        },
+        {
+          "title": "R&M Wiki Uygulaması",
+          "description": "Bu proje, React ile geliştirilmiş ve state yönetimi için Redux kullanılan bir Rick and Morty Wiki uygulamasıdır. Uygulama, dizideki karakterler, bölümler ve mekanlar hakkında ayrıntılı bilgiler sunmaktadır. Kullanıcılar, karakter detaylarını inceleyebilir, bölüm listelerini görebilir ve dizideki çeşitli mekanlar hakkında bilgi edinebilirler. Sayfalama özelliği ile geniş veri setleri arasında kolayca gezinebilirler. Uygulamanın tasarımı Tailwind CSS ile yapılmış olup, temiz, duyarlı ve modern bir kullanıcı arayüzü sunarak kesintisiz ve etkileyici bir kullanıcı deneyimi sağlar.",
+          "used": ["react", "redux", "vercel"],
+          "viewSite": "https://rmwiki.vercel.app/",
+          "git": "https://github.com/zehraBal/Redux-Applications/",
+          "image": "/images/rmwiki.png"
+        },
         {
           "title": "Pizza Challenge Projesi",
           "description": "Bu proje, kullanıcıların kolayca yemek siparişi verebileceği tek sayfalık bir uygulamadır (SPA). React kullanılarak oluşturulan bu uygulama, ana sayfadaki sipariş butonuna tıklayarak kullanıcıların yemek siparişi vermesini sağlar. Kullanıcılar sipariş formunu doldurduklarında, form doğrulamaları başarılı olursa onay sayfasına yönlendirilirler. Bu projede, routing, formlar, doğrulamalar ve durum yönetimi gibi temel React kavramları etkin bir şekilde kullanılmıştır.",
@@ -60,59 +219,221 @@
           "viewSite": "https://todo-app-tau-gray.vercel.app/",
           "git": "https://github.com/zehraBal/Redux-Applications",
           "image": "/images/todo.png"
+        }
+      ],
+      "backendContent": [
+        {
+          "title": "E-ticaret Backend Geliştirme",
+          "description": "Java ve Spring Boot kullanarak bir e-ticaret backend'i geliştirdim. Kullanıcı kimlik doğrulaması ve rol tabanlı erişim kontrolü için Spring Security entegre ettim. Sistemin güvenilirliğini sağlamak için birim ve entegrasyon testleri gerçekleştirdim. CRUD işlemleri için React frontend tasarladım ve API iletişimini başarıyla test ettim. Bu proje, backend geliştirme, güvenlik ve test odaklı geliştirme konularındaki yetkinliğimi gösteriyor.",
+          "used": [
+            "java",
+            "spring boot",
+            "spring security",
+            "react",
+            "birim testi",
+            "entegrasyon testi"
+          ],
+          "git": "https://github.com/zehraBal/Ecommerce-Challenge",
+          "image": "/images/ecommerce-backend.png"
         },
         {
-          "title": "R&M Wiki Uygulaması",
-          "description": "Bu proje, React ile geliştirilmiş ve state yönetimi için Redux kullanılan bir Rick and Morty Wiki uygulamasıdır. Uygulama, dizideki karakterler, bölümler ve mekanlar hakkında ayrıntılı bilgiler sunmaktadır. Kullanıcılar, karakter detaylarını inceleyebilir, bölüm listelerini görebilir ve dizideki çeşitli mekanlar hakkında bilgi edinebilirler. Sayfalama özelliği ile geniş veri setleri arasında kolayca gezinebilirler. Uygulamanın tasarımı Tailwind CSS ile yapılmış olup, temiz, duyarlı ve modern bir kullanıcı arayüzü sunarak kesintisiz ve etkileyici bir kullanıcı deneyimi sağlar.",
-          "used": ["react", "redux", "vercel"],
-          "viewSite": "https://rmwiki.vercel.app/",
-          "git": "https://github.com/zehraBal/Redux-Applications/",
-          "image": "/images/rmwiki.png"
+          "title": "Kütüphane Sistemi",
+          "description": "Bu proje, Java ve Spring Boot kullanılarak geliştirilen bir kütüphane yönetim sistemidir. Kullanıcılar üye olup kitap ödünç alabilir veya satın alabilir. Sistemde bakiye yönetimi ve geç iade edilen kitaplar için ceza sistemi bulunur. OOP prensiplerine dayalı olarak üyelik, kitap yönetimi ve cezalandırma mekanizmaları yönetilir.",
+          "used": [
+            "java",
+            "spring boot",
+            "OOP prensipleri",
+            "Collections API",
+            "List",
+            "Map"
+          ],
+          "git": "https://github.com/zehraBal/Java-s15-Challenge",
+          "image": "/images/library-system.png"
         }
       ]
     },
     "footer": {
-      "title": "Bana bir mesaj gönder!",
-      "content": "Bir sorunuz veya teklifiniz mi var, ya da sadece merhaba demek mi istiyorsunuz? Hadi."
+      "title": "Bana Ulaşın!",
+      "content": "Sizinle çalışmak ve fikirlerinize değer katmak için sabırsızlanıyorum. Bana istediğiniz zaman ulaşabilirsiniz."
     }
   },
   "en": {
     "summary": {
       "name": "Zehra",
-      "sumTitle": "I am a Frontend Developer...",
-      "sumContent": "...who likes to craft solid and scalable frontend products with great user experience"
+      "sumTitle": "Hello, I'm Zehra!",
+      "sumContent": "As a Junior Full Stack Developer, I focus on building robust and scalable applications using React, Node.js, and Spring Boot. I am committed to continuous learning, contributing to projects, and writing clean, efficient code.My goal is to gain in-depth knowledge in software development and eventually reach the level of a senior developer, leading large-scale projects."
     },
 
-    "skillsTitle": "Skills",
+    "skills": {
+      "categories": [
+        {
+          "title": "Front End Technologies",
+          "skills": [
+            { "name": "JavaScript", "icon": "faJsSquare", "color": "#F0DB4F" },
+            { "name": "React", "icon": "faReact", "color": "#61DBFB" },
+            { "name": "React Hooks", "icon": "faHammer", "color": "#61DBFB" },
+            { "name": "Redux", "icon": "faCube", "color": "#764ABC" },
+            { "name": "HTML5", "icon": "faHtml5", "color": "#E34F26" },
+            { "name": "CSS3", "icon": "faCss3", "color": "#264DE4" },
+            { "name": "Bootstrap", "icon": "faBootstrap", "color": "#7952B3" },
+            {
+              "name": "Tailwind CSS",
+              "icon": "faTerminal",
+              "color": "#38B2AC"
+            },
+            { "name": "Figma", "icon": "faFigma", "color": "#F24E1E" }
+          ]
+        },
+        {
+          "title": "Back End Technologies",
+          "skills": [
+            { "name": "Node.js", "icon": "faNodeJs", "color": "#68A063" },
+            { "name": "Java", "icon": "faJava", "color": "#F89820" },
+            { "name": "Spring Boot", "icon": "faServer", "color": "#6DB33F" },
+            { "name": "PostgreSQL", "icon": "faDatabase", "color": "#336791" },
+            { "name": "SQL", "icon": "faDatabase", "color": "#4479A1" },
+            { "name": "MongoDB", "icon": "faDatabase", "color": "#4DB33D" }
+          ]
+        },
+        {
+          "title": "DevOps & Tools",
+          "skills": [
+            { "name": "Git", "icon": "faGitAlt", "color": "#F1502F" },
+            { "name": "GitHub", "icon": "faGithub", "color": "#333" },
+            { "name": "CI/CD", "icon": "faCodeBranch", "color": "#007ACC" },
+            { "name": "Deployment", "icon": "faServer", "color": "#5C2D91" }
+          ]
+        },
+        {
+          "title": "Soft Skills & Additional Competencies",
+          "skills": [
+            {
+              "name": "Problem Solving",
+              "icon": "faPuzzlePiece",
+              "color": "#FF6B6B"
+            },
+            {
+              "name": "Algorithm Design",
+              "icon": "faChartLine",
+              "color": "#4ECDC4"
+            },
+            {
+              "name": "System Design",
+              "icon": "faLightbulb",
+              "color": "#45B7D1"
+            },
+            {
+              "name": "Team Collaboration",
+              "icon": "faCodeBranch",
+              "color": "#FF8C42"
+            },
+            {
+              "name": "Agile Methodologies",
+              "icon": "faTerminal",
+              "color": "#2A9D8F"
+            },
+            {
+              "name": "Technical Documentation",
+              "icon": "faTerminal",
+              "color": "#6A4C93"
+            }
+          ]
+        }
+      ]
+    },
 
-    "basicInfo": {
-      "profileTitle": "Profile",
+    "about": "My passion for software development began during my engineering studies and led me to pursue a career as a Full Stack Developer. After graduating from Sakarya University with a degree in Electrical and Electronics Engineering, I decided to deepen my knowledge in software development. I successfully completed the Full Stack Development Program at Workintech, gaining proficiency in technologies such as React, Node.js, and Spring Boot. Through my experience working on embedded software and CMS-based web projects, I’ve gained practical experience in solving real-world problems. This journey has not only enhanced my technical skills but also helped me develop strong abilities in teamwork and project management. Currently, my goal is not only to develop software but also to create innovative, scalable, and user-focused solutions. In the short term, I aim to build a strong foundation in software development and gain practical experience in this field. I am aiming to advance toward becoming a Senior Developer and take on leadership roles in large projects. In the long term, my goal is to combine my passion for software development with expertise in software architecture and team leadership, creating high-quality and sustainable software solutions.",
 
-      "title": "Basic Information",
-      "birthday": {
-        "title": "Date of Birth",
-        "data": "11.11.1998"
+    "education": [
+      {
+        "title": "Full Stack Development Program",
+        "institution": "Workintech",
+        "startDate": "03-2024",
+        "endDate": "10-2024",
+        "description": "A comprehensive bootcamp focused on building full-stack applications using React, Node.js, and Spring Boot."
       },
-      "residence": {
-        "title": "City of Residence",
-        "data": "İstanbul"
+      {
+        "title": "Bachelor's in Electrical and Electronics Engineering",
+        "institution": "Sakarya University",
+        "startDate": "09-2017",
+        "endDate": "03-2022",
+        "description": "A 4-year university program providing a solid foundation in electronics and electrical systems engineering."
       },
-      "education": {
-        "title": "Educational Background",
-        "data": "Sakarya University, EEE , 2022"
-      },
-      "preference": {
-        "title": "Preferred Role",
-        "data": "Frontend,UI"
+      {
+        "title": "Computer Programming",
+        "institution": "Anadolu University",
+        "startDate": "09-2021",
+        "endDate": "06-2023",
+        "description": "A 2-year program focusing on computer programming, software development, and basic coding concepts."
       }
-    },
-    "aboutMe": {
-      "title": "About Me",
-      "data": "I graduated from Sakarya Univ. with a degree in EEE and later completed a program in Computer Programming at Anadolu Univ. I worked for a year on embedded software projects and creating websites using CMS. Currently, I am enrolled in Workintech's full stack development program, having completed the frontend portion and continuing with the remaining courses"
-    },
+    ],
+    "languages": [
+      { "language": "English", "level": "Advanced" },
+      { "language": "German", "level": "Beginner" },
+      { "language": "Japanese", "level": "Beginner" }
+    ],
+    "certificates": [
+      {
+        "title": "Front End Development",
+        "institution": "Workintech",
+        "certificateCode": "N/A",
+        "description": "Comprehensive training in front-end technologies as part of the Full Stack Development program."
+      },
+
+      {
+        "title": "C# and ASP .NET Core MVC Training",
+        "institution": "C & System Programmers Association",
+        "certificateCode": "-",
+        "description": "Completed a 260-hour C# and ASP .NET Core MVC training."
+      },
+
+      {
+        "title": "JavaScript (Basic)",
+        "institution": "Hackerrank",
+        "certificateCode": "ID: 2E1E6F84C9FF",
+        "description": "Certification obtained through Hackerrank for basic JavaScript skills."
+      },
+      {
+        "title": "CS50’s Introduction to Computer Science",
+        "institution": "Harvard University",
+        "certificateCode": "N/A",
+        "description": "Completed the introductory computer science course offered by Harvard University."
+      },
+      {
+        "title": "Microsoft Office Programs",
+        "institution": "Istanbul Business Institute",
+        "certificateCode": "122331374022",
+        "description": "A certification program that provides advanced proficiency in Microsoft Office programs."
+      }
+    ],
+
     "projects": {
       "title": "Projects",
-      "content": [
+      "frontendContent": [
+        {
+          "title": "Bal E-Commerce Project",
+          "description": "This project is a modern, performance-focused, and user-friendly e-commerce platform where users can shop online with ease. Built with React and Vite, it leverages Redux for state management, React Hook Form for seamless form handling, and Tailwind CSS for a sleek, responsive design. The shopping page features pagination to enhance user experience. Users can add or remove items from their cart, view their order history, add new payment cards and addresses, and perform user registration/login actions. To enable real user experience testing, you can log in using **customer@commerce.com** with the password **123456**. Designed with a strong emphasis on both user experience and developer efficiency, this project showcases the power of modern web development tools.",
+          "used": [
+            "react",
+            "vite",
+            "redux",
+            "react-hook-form",
+            "tailwind-css",
+            "vercel",
+            "pagination"
+          ],
+          "viewSite": "https://bal-ecommerce.vercel.app/",
+          "git": "https://github.com/zehraBal/Workintech-Ecommerce-Challenge",
+          "image": "/images/ecommerce.png"
+        },
+        {
+          "title": "R&M Wiki App",
+          "description": "This project is a Rick and Morty Wiki application built with React and utilizing Redux for state management. The application provides detailed information about the show's characters, episodes, and locations. Users can explore character details, view episode lists, and learn about various locations in the series. With the implementation of pagination, users can easily navigate through extensive datasets. The application is styled using Tailwind CSS, offering a clean, responsive, and modern user interface, ensuring a seamless and engaging user experience.",
+          "used": ["react", "redux", "vercel"],
+          "viewSite": "https://rmwiki.vercel.app/",
+          "git": "https://github.com/zehraBal/Redux-Applications/",
+          "image": "/images/rmwiki.png"
+        },
         {
           "title": "Pizza Challenge Project",
           "description": "This project is a single-page application (SPA). Created using React, this application allows users to easily place food orders by clicking the order button on the homepage. When users fill out the order form, they are redirected to a confirmation page if the form validations are successful. In this project, fundamental React concepts such as routing, forms, validations, and state management are effectively utilized.",
@@ -136,20 +457,42 @@
           "viewSite": "https://todo-app-tau-gray.vercel.app/",
           "git": "https://github.com/zehraBal/Redux-Applications",
           "image": "/images/todo.png"
+        }
+      ],
+      "backendContent": [
+        {
+          "title": "E-commerce Backend Development",
+          "description": "Developed an e-commerce backend using Java and Spring Boot, integrating Spring Security for user authentication and role-based access control. Implemented unit and integration tests to ensure system reliability. Designed a React frontend to handle CRUD operations, demonstrating successful API communication. This project showcases expertise in backend development, security, and test-driven development.",
+          "used": [
+            "java",
+            "spring boot",
+            "spring security",
+            "react",
+            "unit testing",
+            "integration testing"
+          ],
+          "git": "https://github.com/zehraBal/Ecommerce-Challenge",
+          "image": "/images/ecommerce-backend.png"
         },
         {
-          "title": "R&M Wiki App",
-          "description": "This project is a Rick and Morty Wiki application built with React and utilizing Redux for state management. The application provides detailed information about the show's characters, episodes, and locations. Users can explore character details, view episode lists, and learn about various locations in the series. With the implementation of pagination, users can easily navigate through extensive datasets. The application is styled using Tailwind CSS, offering a clean, responsive, and modern user interface, ensuring a seamless and engaging user experience.",
-          "used": ["react", "redux", "vercel"],
-          "viewSite": "https://rmwiki.vercel.app/",
-          "git": "https://github.com/zehraBal/Redux-Applications/",
-          "image": "/images/rmwiki.png"
+          "title": "Library System",
+          "description": "This project is a library management system developed using Java and Spring Boot. Users can become members and either borrow or purchase books. The system includes balance management and a penalty system for overdue books. Membership, book management, and penalty mechanisms are handled based on OOP principles.",
+          "used": [
+            "java",
+            "spring boot",
+            "OOP principles",
+            "Collections API",
+            "List",
+            "Map"
+          ],
+          "git": "https://github.com/zehraBal/Java-s15-Challenge",
+          "image": "/images/library-system.png"
         }
       ]
     },
     "footer": {
-      "title": "Send me a message!",
-      "content": "Got a question or proposal, or just want to say hello? Go ahead."
+      "title": "Get in Touch!",
+      "content": "I’m excited to work with you and bring value to your ideas. Feel free to reach out anytime."
     }
   }
 }

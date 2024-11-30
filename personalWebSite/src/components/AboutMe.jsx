@@ -1,20 +1,20 @@
-import { useSelector } from "react-redux";
-import { aboutMeSelector } from "../store/selectors/selectors";
+import { motion } from "framer-motion";
 
-export default function AboutMe() {
-  const abaoutMeData = useSelector(aboutMeSelector);
-  console.log(abaoutMeData);
-
+const AboutMe = ({ aboutMe }) => {
   return (
-    <div className="max-w-[300px]  min-h-[290.68px] text-left flex flex-col gap-3 max-md:h-auto max-md:mb-5">
-      <div>
-        <h3 className="max-w-[300px] h-[28px] text-white font-inter font-medium text-[30px] leading-[28px]">
-          {abaoutMeData.title}
-        </h3>
-      </div>
-      <p className="font-normal text-lg leading-7 text-white">
-        {abaoutMeData.data}
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className="p-6"
+    >
+      <h3 className="text-2xl font-semibold mb-4 text-violet-700 dark:text-violet-400">
+        About Me
+      </h3>
+      <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+        {aboutMe}
       </p>
-    </div>
+    </motion.div>
   );
-}
+};
+
+export default AboutMe;

@@ -3,8 +3,7 @@ import SummaryContent from "./SummaryContent";
 
 export default function Summary() {
   return (
-    <div className="w-screen max-h-[671px] bg-bgr-background flex  flex-wrap justify-center items-center dark:bg-dark-background max-lg:justify-start max-sm:bg-none max-sm:bg-custom-purple ">
-      <Header />
+    <div className="flex bg-[#ECF0F1] dark:bg-[#2C3E50] flex-col md:flex-row justify-center items-center py-10 px-5 dark:text-[#BDC3C7] max-lg:justify-start">
       <SummaryContent />
     </div>
   );

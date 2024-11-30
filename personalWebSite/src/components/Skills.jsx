@@ -1,75 +1,47 @@
 import { useSelector } from "react-redux";
+import { languageSelector, skillSelector } from "../store/selectors/selectors";
+import { motion } from "framer-motion";
+import SkillCard from "./SkillCard";
 
+// Skills Component
 export default function Skills() {
-  const title = useSelector((store) => store.data.skillsTitle);
+  const skillCategories = useSelector(skillSelector);
+  const lang = useSelector(languageSelector);
+
   return (
-    <div className="w-screen flex justify-center items-center min-h-[552px]  dark:bg-[#252128] max-md:h-auto max-md:pb-5">
-      <div className="w-full max-w-[960px] h-auto flex flex-col lg:flex-row justify-between items-center lg:items-start gap-8 px-4 lg:px-0">
-        <h1 className="text-[#4731D3] font-bold text-[48px] dark:text-[#CBF281]   max-md:text-left ">
-          {title}
-        </h1>
-        <div className="w-full lg:w-[290px] flex flex-col gap-[35px]">
-          <div className="flex items-center gap-6 text-2xl font-medium text-[#777777] dark:text-white">
-            <img
-              className="rounded-md shadow-custom1"
-              width="120"
-              height="120"
-              src="/images/jS.png"
-              alt="JS"
-            />
-            JAVASCRIPT
-          </div>
-          <div className="flex items-center gap-6 text-2xl font-medium text-[#777777] dark:text-white">
-            <img
-              className="rounded-md shadow-custom1"
-              width="120"
-              height="120"
-              src="/images/react.png"
-              alt="react"
-            />
-            REACT
-          </div>
-          <div className="flex items-center gap-6 text-2xl font-medium text-[#777777] dark:text-white">
-            <div className="rounded-md bg-violet-700 h-[120px] w-[120px] flex justify-center items-center shadow-custom1">
-              <img
-                className="object-contain"
-                width="110"
-                height="110"
-                src="/images/redux.png"
-                alt="redux"
-              />
-            </div>{" "}
-            REDUX
-          </div>
-        </div>
-        <div className="w-full lg:w-[290px] flex flex-col gap-[35px]">
-          <div className="flex items-center gap-6 text-2xl font-medium text-[#777777] dark:text-white">
-            <div className="w-[120px] h-[120px] bg-black rounded-md shadow-custom1">
-              <img width="120" height="120" src="/images/node.png" alt="node" />
-            </div>{" "}
-            NODE{" "}
-          </div>
-          <div className="flex items-center gap-6 text-2xl font-medium text-[#777777] dark:text-white">
-            <div className="flex justify-center items-center bg-[#038FD6] w-[120px] h-[120px] rounded-md shadow-custom1">
-              {" "}
-              <img
-                className="w-[100px] h-[100px]"
-                src="/images/vscode.png"
-                alt="vsCode"
-              />
+    <section className="py-16 bg-gray-50 dark:bg-[#1A1A1A]">
+      <div className="container px-40 flex flex-col flex-wrap">
+        <motion.h2
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="text-4xl font-bold text-center mb-14
+            text-violet-700 dark:text-violet-400"
+        >
+          {lang == "en"
+            ? "Skills and Proficiencies"
+            : "Beceriler ve Yeterlilikler"}
+        </motion.h2>
+
+        <div className="space-y-12">
+          {skillCategories.map((category) => (
+            <div key={category.title}>
+              <h3
+                className="text-2xl font-semibold mb-6 
+                text-center text-[#2C3E50] dark:text-gray-200
+                border-b-2 border-violet-200 pb-2"
+              >
+                {category.title}
+              </h3>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6">
+                {category.skills.map((skill) => (
+                  <SkillCard key={skill.name} skill={skill} />
+                ))}
+              </div>
             </div>
-            VS CODE{" "}
-          </div>
-          <div className="flex items-center gap-6 text-2xl font-medium text-[#777777] dark:text-white">
-            <img
-              className="w-[120px] h-[120px] rounded-md shadow-custom1"
-              src="/images/figma.png"
-              alt="figma"
-            />
-            FIGMA
-          </div>
+          ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
