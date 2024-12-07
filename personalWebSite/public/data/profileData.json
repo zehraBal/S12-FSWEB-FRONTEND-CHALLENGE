@@ -137,9 +137,15 @@
     ],
     "certificates": [
       {
-        "title": "Front End Development",
+        "title": "Full Stack Yazılımcı",
         "institution": "Workintech",
-        "certificateCode": "N/A",
+        "certificateCode": "witfsweb0324-10",
+        "description": "Full Stack Geliştirme programı kapsamında back-end teknolojilerinde kapsamlı bir eğitim alındı."
+      },
+      {
+        "title": "Front End Yazılımcı",
+        "institution": "Workintech",
+        "certificateCode": "witfefsweb0324-10",
         "description": "Full Stack Geliştirme programı kapsamında front-end teknolojilerinde kapsamlı bir eğitim alındı."
       },
       {
@@ -152,7 +158,7 @@
       {
         "title": "JavaScript (Basic)",
         "institution": "Hackerrank",
-        "certificateCode": "ID: 2E1E6F84C9FF",
+        "certificateCode": "2E1E6F84C9FF",
         "description": "Hackerrank üzerinden alınan temel JavaScript becerileri sertifikası."
       },
       {
@@ -374,9 +380,15 @@
     ],
     "certificates": [
       {
+        "title": "Full Stack Developer",
+        "institution": "Workintech",
+        "certificateCode": "witfsweben0324-10",
+        "description": "Comprehensive training in back-end technologies as part of the Full Stack Development program."
+      },
+      {
         "title": "Front End Development",
         "institution": "Workintech",
-        "certificateCode": "N/A",
+        "certificateCode": "witfefsweben0324-10",
         "description": "Comprehensive training in front-end technologies as part of the Full Stack Development program."
       },
 
@@ -390,7 +402,7 @@
       {
         "title": "JavaScript (Basic)",
         "institution": "Hackerrank",
-        "certificateCode": "ID: 2E1E6F84C9FF",
+        "certificateCode": "2E1E6F84C9FF",
         "description": "Certification obtained through Hackerrank for basic JavaScript skills."
       },
       {

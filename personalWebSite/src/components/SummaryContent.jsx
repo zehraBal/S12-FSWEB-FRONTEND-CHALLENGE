@@ -66,7 +66,7 @@ export default function SummaryContent() {
       transition={{ duration: 0.6 }}
       className="flex my-16 max-md:flex-col max-sm:my-10"
     >
-      <div className="basis-full flex gap-20 px-40 flex-grow justify-center items-center flex-wrap">
+      <div className="basis-full flex gap-20 px-40 flex-grow justify-center items-center flex-wrap md:px-0  max-sm:px-0">
         {/* Text Content */}
         <div className="max-w-[45%] flex flex-col justify-between flex-wrap gap-[20px]">
           <h1 className="text-violet-700 dark:text-white font-bold mt-7">
@@ -130,7 +130,7 @@ export default function SummaryContent() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="summary-button"
-            onClick={() => window.open("/cv/zehraBal-Cv.pdf", "_blank")}
+            onClick={() => window.open("/cv/ZehraBal_CV.pdf", "_blank")}
           >
             <FontAwesomeIcon icon={faFilePdf} />
             {lang === "en" ? "Resume" : "Özgeçmiş"}

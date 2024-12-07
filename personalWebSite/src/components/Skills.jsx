@@ -10,7 +10,7 @@ export default function Skills() {
 
   return (
     <section className="py-16 bg-gray-50 dark:bg-[#1A1A1A]">
-      <div className="container px-40 flex flex-col flex-wrap">
+      <div className="container px-40 flex flex-col flex-wrap max-md:px-0">
         <motion.h2
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}

@@ -151,7 +151,7 @@ const NewProjects = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       className="bg-gradient-to-br from-violet-50 to-violet-100 px-20 flex  flex-wrap max-sm:flex-col
-        dark:from-[#1A1A2E] dark:to-[#16213E] py-16"
+        dark:from-[#1A1A2E] dark:to-[#16213E] py-16 max-md:px-0"
     >
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12 text-violet-800 dark:text-violet-300">

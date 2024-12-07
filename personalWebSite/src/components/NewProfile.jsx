@@ -71,7 +71,7 @@ const NewProfile = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       className="bg-gradient-to-br from-violet-50 to-violet-100 
-       dark:from-[#1A1A2E] dark:to-[#16213E] py-16 px-20"
+       dark:from-[#1A1A2E] dark:to-[#16213E] py-16 px-20 max-md:px-0"
     >
       <motion.h2
         initial={{ opacity: 0, y: -50 }}
@@ -90,7 +90,7 @@ const NewProfile = () => {
           {/* Navigation Sidebar */}
           <div
             className="w-full md:w-1/4 bg-violet-100 dark:bg-[#2C2C2C] 
-            border-r border-violet-200 dark:border-gray-700"
+            border-r border-violet-200 dark:border-gray-700 max-md:flex max-md:justify-center max-md:items-center"
           >
             <nav className="flex md:flex-col p-4">
               {navItems.map((item) => (
