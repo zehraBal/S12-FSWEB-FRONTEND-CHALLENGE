@@ -34,10 +34,10 @@ export default function Header() {
   }, [isDarkMode]);
 
   return (
-    <header className="text-[#4731D3] flex justify-center items-center bg-[#F4F4F4] max-sm:flex-col max-sm:items-start py-5 dark:bg-[#1A1A1A]">
-      <div className="basis-3/4 flex justify-between items-center">
+    <header className="text-[#4731D3] flex justify-center items-center  bg-[#F4F4F4]  py-5 dark:bg-[#1A1A1A]">
+      <div className="basis-3/4 flex justify-between items-center max-sm:gap-11  max-sm:justify-center">
         <p className="font-bold text-[32px]">zehra</p>
-        <div className="w-[400px] flex flex-wrap justify-between max-sm:flex-col items-center max-sm:items-start">
+        <div className="flex flex-wrap gap-4 max-sm:flex-col items-center max-sm:items-start">
           <div
             className="text-[15px] font-bold  cursor-pointer max-sm:mr-0 max-sm:mb-3 max-sm:m-0"
             onClick={handleLanguage}
@@ -46,7 +46,7 @@ export default function Header() {
           </div>
           <div className="text-[#4731D3] font-bold flex justify-center items-center gap-3 max-sm:m-0 max-sm:text-[#CBF281] ">
             <div className="container-switch">
-              <label className="switch">
+              <label className="switch ">
                 <input
                   type="checkbox"
                   onChange={toggleDarkMode}

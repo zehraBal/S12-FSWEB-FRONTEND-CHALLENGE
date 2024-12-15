@@ -93,3 +93,10 @@ input:checked + .slider:after {
 .summary-button {
   @apply flex items-center gap-3 w-full md:w-[150px] h-[52px] border border-[#BDC3C7] rounded-md px-4 py-2 bg-[#F8F9FA] text-[#2C3E50] dark:bg-[#2C3E50] dark:text-[#BDC3C7] hover:bg-[#BDC3C7] hover:text-[#2C3E50] transition-all;
 }
+
+@media (max-width: 600px) {
+  /* Adjust the max-width value as needed */
+  .switch {
+    margin-left: 0;
+  }
+}

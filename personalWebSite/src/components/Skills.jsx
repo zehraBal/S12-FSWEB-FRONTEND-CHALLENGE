@@ -9,7 +9,7 @@ export default function Skills() {
   const lang = useSelector(languageSelector);
 
   return (
-    <section className="py-16 bg-gray-50 dark:bg-[#1A1A1A]">
+    <section className="py-16 bg-gray-50 dark:bg-[#1A1A1A] flex flex-col items-center justify-center">
       <div className="container px-40 flex flex-col flex-wrap max-md:px-0">
         <motion.h2
           initial={{ opacity: 0, y: -50 }}
