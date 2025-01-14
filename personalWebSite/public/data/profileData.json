@@ -154,12 +154,23 @@
         "certificateCode": "-",
         "description": "260 saatlik c# ve ASP .NET Core MVC eğitimini tamamladım."
       },
-
+      {
+        "title": "SQL (Intermediate)",
+        "institution": "Hackerrank",
+        "certificateCode": "D15D412D2720",
+        "description": "Hackerrank üzerinden alınan orta seviye SQL becerileri sertifikası."
+      },
       {
         "title": "JavaScript (Basic)",
         "institution": "Hackerrank",
         "certificateCode": "2E1E6F84C9FF",
         "description": "Hackerrank üzerinden alınan temel JavaScript becerileri sertifikası."
+      },
+      {
+        "title": "Git & GitHub",
+        "institution": "Techcareer.net",
+        "certificateCode": "24341777343708 ",
+        "description": "techcareer.net üzerinden alınan Git ve GitHub eğitimi katılım sertifikası."
       },
       {
         "title": "CS50’s Introduction to Computer Science",
@@ -398,12 +409,23 @@
         "certificateCode": "-",
         "description": "Completed a 260-hour C# and ASP .NET Core MVC training."
       },
-
+      {
+        "title": "SQL (Intermediate)",
+        "institution": "Hackerrank",
+        "certificateCode": "D15D412D2720",
+        "description": "Certification obtained through Hackerrank for intermediate SQL skills."
+      },
       {
         "title": "JavaScript (Basic)",
         "institution": "Hackerrank",
         "certificateCode": "2E1E6F84C9FF",
         "description": "Certification obtained through Hackerrank for basic JavaScript skills."
+      },
+      {
+        "title": "Git & GitHub",
+        "institution": "Techcareer.net",
+        "certificateCode": "24341777343708 ",
+        "description": "Certification obtained through techcareer.net for Git & GitHub training."
       },
       {
         "title": "CS50’s Introduction to Computer Science",
